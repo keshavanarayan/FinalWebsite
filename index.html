@@ -2,16 +2,139 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>S1 - Lecture 2</title>
+        <title>Keshava Narayan_Portfolio Website</title>
+        <style>
+            body { 
+                margin: 0;
+                font-family: monospace;
+                background-color: rgb(255, 255, 255);
+            }
+
+
+            .wrapper {
+            left:10%;
+            
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            }
+            .one {
+             background-color: rgb(241, 217, 0);
+             font-size: 15px;
+                }
+            .two {
+
+             background-color: rgb(241, 217, 0);
+             font-size: 15px;
+            }
+            .three {
+
+            background-color: rgb(241, 217, 0);
+             font-size: 15px;
+            }   
+            .four {
+
+            background-color: rgb(241, 217, 0);
+             font-size: 15px;
+            }
+            .five {
+
+            background-color: rgb(241, 217, 0);
+             font-size: 15px;
+            }
+            .six {
+
+            background-color: rgb(241, 217, 0);
+             font-size: 15px;
+            }
+			
+            .gold-box {
+             position: relative;
+            background: rgb(255, 255, 255);
+            font-size: 30px;
+            font-family: monospace;
+             width: 80%;
+             left: 10%;
+            }
+
+            .gold-box-small {
+             position: relative;
+            background: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: monospace;
+             width: 80%;
+             left: 10%;
+            }
+
+            canvas { width: 100%; height: 100%; }
+            
+
+            img {
+                width: 500px; /* set image width */
+            }
+
+
+
+        </style>
     </head>
     <body>
-        <h1>S1 - Lecture 2</h1>
-        <ul>
-            <li><a href="./example1/">Example 1</a> – Introduction to three.js</li>
-            <li><a href="./example2/">Example 2</a> – Introduction to rhino3dm.js and 3DMLoader for three.js</li>
-            <li><a href="./example3/">Example 3</a> - Extends example 2 by adding a mouse click event.</li>
-            <li><a href="./example4/">Example 4</a> - Assignment showing different landmasses of the Earth with population and countries.</li>
-            <li><a href="./example5/">Example 5</a> - Pavlion by Strip Bending_Keshava Narayan</li>
-        </ul>
+        <div style="color:rgb(0, 0, 0)" class="gold-box">
+            <img id="myImage"
+          src="./IMG-20190330-WA0009_edit_final.png">
+            <p>I am Keshava Narayan</p>
+        </div>
+        <div style="color:rgb(0, 0, 0)" class="gold-box-small">
+            
+            <p>Consultant Architect, Design Technolgist and Researcher</p>
+            <p>
+               Currently pursuing <a href="https://iaac.net/educational-programmes/masters-programmes/macad/">Masters in Advanced Computation in Architecture and Design</a> <a href="https://iaac.net/educational-programmes/masters-programmes/macad/"></a> in IAAC, Barcelona.
+            </p>
+        </div>
+
+        <div class="wrapper">
+            <div class="one">
+                <a href="./LandmassesOfEarth/">
+                <img id="myImage1"
+                src="./LandmassesOfEarth.jpeg"> </a>
+                <p id="caption1">
+                Landmasses of the Earth with Population Numbers and Countries.
+            </p></div>
+
+        <div class="two">
+                <a href="./TimberPavilion/">
+                    <img id="myImage2"
+                    src="./LandmassesOfEarth.jpeg"> </a>
+                    <p id="caption2">
+                    Timber Pavilion designed with Arthur Mamoumani
+         </p></div>
+
+
+            <div class="three">
+             <img id="myImage3"
+             src="http://www.iaacblog.com/wp-content/uploads/2020/12/g_1_poster-730x411.jpg">
+                <p id="caption3">
+                    The Modular Edifice at IAAC
+                </p>
+            </div>
+
+            <div class="four">
+                    <a href="http://randomcontextgenerator.herokuapp.com/view/Voronoi_Table.gh">
+                    <img id="myImage4"
+                    src="./VoronoiTable.png"> </a>
+                    <p id="caption4">
+                    The Design Your Own Voronoi Table App
+                    </p>
+                   </div>
+
+            <div class="five">
+                <a href="http://randomcontextgenerator.herokuapp.com/examples/RandomContextGenerator">
+                    <img id="myImage5"
+                    src="./RandomContextGenerator.jpeg"> </a>
+                    <p id="caption5">
+                    The Random Context Generator App
+                    </p>
+                   </div>
+            
+          
     </body>
 </html>
